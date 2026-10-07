@@ -1,0 +1,14 @@
+# SAMPLE DATA for testing - these are not real people or real requests.
+# Format: name,village,people,need,injured
+#   need    = rescue, medical, food or shelter
+#   injured = yes or no
+Ramesh,Kullu,6,rescue,yes
+Sunita,Mandi,4,medical,no
+Arjun,Solan,12,food,no
+Meena,Chamba,2,shelter,no
+Vikram,Kinnaur,9,rescue,no
+Pooja,Shimla,3,medical,yes
+Rahul,Mandi,15,food,no
+Anita,Kullu,5,shelter,yes
+# The next line is wrong on purpose, to show that bad lines are reported:
+Deepak,Hamirpur,1,water,no
